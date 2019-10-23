@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "message": "Settings",
+    "description": "Display text for settings options"
+  },
+  "press_space": {
+    "message": "Press space to change",
+    "description": "Invite user to press space to change sentence"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "settings": {
+    "message": "Paramètres",
+    "description": "Display text for settings options"
+  },
+  "press_space": {
+    "message": "Appuyez sur espace pour changer",
+    "description": "Display text for settings options"
+  }
+}

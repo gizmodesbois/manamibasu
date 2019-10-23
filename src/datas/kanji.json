@@ -1,0 +1,60 @@
+{
+  "kanjis": [
+    {
+      "kanji": "一",
+      "furigana": "れい",
+      "romaji": "rei",
+      "translation": "zéro"
+    },{
+      "kanji": "一",
+      "furigana": "いち",
+      "romaji": "ichi",
+      "translation": "un"
+    },{
+      "kanji": "二",
+      "furigana": "に",
+      "romaji": "ni",
+      "translation": "deux"
+    },{
+      "kanji": "三",
+      "furigana": "さん",
+      "romaji": "san",
+      "translation": "trois"
+    },{
+      "kanji": "四",
+      "furigana": "し",
+      "romaji": "shi/yon",
+      "translation": "quatre"
+    },{
+      "kanji": "五",
+      "furigana": "ご",
+      "romaji": "go",
+      "translation": "cin"
+    },{
+      "kanji": "六",
+      "furigana": "ろく",
+      "romaji": "roku",
+      "translation": "six"
+    },{
+      "kanji": "七",
+      "furigana": "しち",
+      "romaji": "shichi/nana",
+      "translation": "sept"
+    },{
+      "kanji": "八",
+      "furigana": "はち",
+      "romaji": "hachi",
+      "translation": "huit"
+    },{
+      "kanji": "九",
+      "furigana": "く",
+      "romaji": "ku/kyū",
+      "translation": "neuf"
+    },{
+      "kanji": "十",
+      "furigana": "じゅう",
+      "romaji": "juu",
+      "translation": "dix"
+    }
+  ]
+}

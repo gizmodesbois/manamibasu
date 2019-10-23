@@ -1,0 +1,125 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-header: #ffffff;
+    --background-color: #f4f6f9;
+    --primary-color: #FF6160;
+    --text-color: #373638;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-header: #252a37;
+    --background-color: #1d1e26;
+    --primary-color: #FF6160;
+    --text-color: #ffffff;
+  }
+}
+
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: grid;
+  grid-template-areas: "header" "main";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr;
+}
+
+.main-title {
+  font-size: 18px;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background: var(--background-header);
+  grid-area: header;
+  justify-content: space-between;
+}
+
+main {
+  grid-area: main;
+  display: flex;
+  padding: 10px;
+  align-items: center;
+  flex-direction: column;
+}
+
+.checkbox {
+  display: none;
+}
+
+.checkbox + label {
+  padding-right: 30px;
+  position: relative;
+  display: block;
+  font-size: 14px;
+  line-height: 30px;
+  cursor:pointer;
+  margin: 10px 0;
+}
+
+.checkbox + label:before {
+  content: '';
+  position: absolute;
+  right: 0;
+  width: 60px;
+  height: 30px;
+  background: #d7d7d7;
+  border-radius: 15px;
+  transition: background .3s ease-in-out;
+}
+
+.checkbox:checked + label:before {
+  background: #FF6160;
+}
+
+.checkbox + label:after {
+  content: '';
+  position: absolute;
+  right: 32px;
+  top: 3px;
+  width: 24px;
+  height: 24px;
+  background: #ffffff;
+  border-radius: 15px;
+  transition: right .3s ease-in-out;
+}
+
+.checkbox:checked + label:after {
+  right: 2px;
+}
+
+.option-container {
+  width: 400px;
+  padding: 20px;
+  margin: 5px 0;
+  background: white;
+}
+
+.block-title {
+  color: var(--primary-color);
+  margin: 0 0 5px;
+  padding: 0 0 5px;
+  font-weight: bold;
+  text-transform: uppercase;
+  font-size: 14px;
+  border-bottom: 1px solid #ccc;
+}

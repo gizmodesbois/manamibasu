@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<meta http-equiv="X-UA-Compatible" content="ie=edge">
+	<title>学びます</title>
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
+	<link rel="stylesheet" href="./style.css">
+</head>
+<body>
+	<header>
+		<h1 class="jp main-title">
+			学びます
+		</h1>
+		<button id="go-to-options" data-i18n="settings">
+			Options
+		</button>
+	</header>
+	<main>
+		<section id="sentence">
+			<h2 class="sub-title">Phrase</h2>
+			<p class="instructions">Appuyez sur <span>espace</span> pour changer</p>
+			<p class="jp main-text" id="japanese-word"></p>
+			<p class="romaji sub-text" id="romaji-word"></p>
+			<p class="translation sub-text" id="translated-word"></p>
+		</section>
+		<section id="kana-container">
+			<h2 class="sub-title">Kana</h2>
+			<p class="instructions">Appuyez sur <span>k</span> pour changer</p>
+			<p class="jp main-text" id="kana"></p>
+			<p class="romaji sub-text" id="romajiKana"></p>
+		</section>
+		<section id="kanji-container">
+			<h2 class="sub-title">Kanji</h2>
+			<p class="instructions">Appuyez sur <span>j</span> pour changer</p>
+			<p class="jp main-text" id="kanji"></p>
+			<p class="romaji sub-text" id="kanji-romaji"></p>
+			<p class="translation sub-text" id="kanji-translated"></p>
+		</section>
+	</main>
+	<script src="./sentence.js"></script>
+	<script src="./kana.js"></script>
+	<script src="./kanji.js"></script>
+	<script src="./app.js"></script>
+</body>
+</html>

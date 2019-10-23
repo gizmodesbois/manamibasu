@@ -1,0 +1,47 @@
+{
+  "sentences": [
+    {
+      "japanese": "ありがとう",
+      "include_furigana": false,
+      "romaji": "arigato",
+      "translation": "merci"
+    },
+    {
+      "japanese": "すみません",
+      "include_furigana": false,
+      "romaji": "sumimasen",
+      "translation": "excusez-moi"
+    },
+    {
+      "japanese": "なに?",
+      "include_furigana": false,
+      "romaji": "nani?",
+      "translation": "quoi?"
+    },
+    {
+      "japanese": "お元気ですか?",
+      "include_furigana": true,
+      "characters": [{
+        "main": "あ",
+        "furigana": null
+      },{
+        "main": "元",
+        "furigana": "げん"
+      },{
+        "main": "気",
+        "furigana": "き"
+      },{
+        "main": "で",
+        "furigana": null
+      },{
+        "main": "す",
+        "furigana": null
+      },{
+        "main": "か",
+        "furigana": null
+      }],
+      "romaji": "Ogenki desu ka ?",
+      "translation": "Est-ce que tu vas bien?"
+    }
+  ]
+}

@@ -1,0 +1,148 @@
+@media (prefers-color-scheme: light) {
+  :root {
+    --background-header: #ffffff;
+    --background-color: #f4f6f9;
+    --primary-color: #FF6160;
+    --text-color: #373638;
+  }
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --background-header: #252a37;
+    --background-color: #1d1e26;
+    --primary-color: #FF6160;
+    --text-color: #ffffff;
+  }
+}
+
+body,
+html {
+  width: 100vw;
+  height: 100vh;
+  margin: 0;
+}
+
+body {
+  background-color: var(--background-color);
+  color: var(--text-color);
+  display: grid;
+  grid-template-areas: "header" "main";
+  grid-template-rows: 60px 1fr;
+  grid-template-columns: 1fr;
+}
+
+.main-title {
+  font-size: 18px;
+  margin: 0;
+  color: var(--primary-color);
+}
+
+.main-text {
+  margin: 0;
+  font-weight: bold;
+  font-size: 86px;
+  color: var(--primary-color);
+}
+
+.jp {
+  font-family: "M PLUS Rounded 1c";
+  font-weight: bold;
+  position: relative;
+}
+
+main:not(.hide-furigana) .jp::before {
+  content: attr(data-reading);
+  color: gray;
+  font-size: 24px;
+  line-height: 1;
+  position: absolute;
+  top: -10px;
+  left: 50%;
+  transform: translateX(-50%);
+  white-space: nowrap;
+}
+
+.sub-title {
+  position: absolute;
+  top: 10px;
+  left: 10px;
+  margin: 0;
+  font-size: 14px;
+}
+
+.instructions {
+  position: absolute;
+  top: 30px;
+  left: 10px;
+  margin: 0;
+  font-size: 12px;
+}
+
+.instructions span {
+  color: var(--primary-color);
+  font-weight: bold;
+}
+
+.sub-text {
+  font-size: 18px;
+  margin: 5px 0;
+}
+
+.hidden,
+.hide-romaji .romaji,
+.hide-translation .translation {
+  display: none;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  padding: 0 10px;
+  background: var(--background-header);
+  grid-area: header;
+  justify-content: space-between;
+}
+
+main {
+  grid-area: main;
+  display: grid;
+  grid-template-areas: "sentence kana" "sentence kanji";
+  grid-template-rows: 1fr 1fr;
+  grid-template-columns: 1fr 30%;
+}
+
+section {
+  position: relative;
+}
+
+#sentence {
+  grid-area: sentence;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-right: 1px solid #ccc;
+}
+
+#kanji-container {
+  grid-area: kanji;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+}
+
+#kana-container{
+  grid-area : kana;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  border-bottom: 1px solid #ccc;
+}
+
+footer {
+  background: var(--background-header);
+  grid-area: footer;
+}
