@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="./style.css">
 </head>
 <body>
-	<header>
+	<header class="main-header">
 		<h1 class="jp main-title">
 			学びます
 		</h1>
@@ -19,24 +19,36 @@
 	</header>
 	<main>
 		<section id="sentence">
-			<h2 class="sub-title">Phrase</h2>
-			<p class="instructions">Appuyez sur <span>espace</span> pour changer</p>
-			<p class="jp main-text" id="japanese-word"></p>
-			<p class="romaji sub-text" id="romaji-word"></p>
-			<p class="translation sub-text" id="translated-word"></p>
+			<header>
+				<h2 class="sub-title">Phrase</h2>
+				<p class="instructions">Appuyez sur <span>espace</span> pour changer</p>
+			</header>
+			<div class="inner-container">
+				<p class="jp main-text" id="japanese-word"></p>
+				<p class="romaji sub-text" id="romaji-word"></p>
+				<p class="translation sub-text" id="translated-word"></p>
+			</div>
 		</section>
 		<section id="kana-container">
-			<h2 class="sub-title">Kana</h2>
-			<p class="instructions">Appuyez sur <span>k</span> pour changer</p>
-			<p class="jp main-text" id="kana"></p>
-			<p class="romaji sub-text" id="romajiKana"></p>
+			<header>
+				<h2 class="sub-title">Kana</h2>
+				<p class="instructions">Appuyez sur <span>k</span> pour changer</p>
+			</header>
+			<div class="inner-container">
+				<p class="jp main-text" id="kana"></p>
+				<p class="romaji sub-text" id="romajiKana"></p>
+			</div>
 		</section>
 		<section id="kanji-container">
-			<h2 class="sub-title">Kanji</h2>
-			<p class="instructions">Appuyez sur <span>j</span> pour changer</p>
-			<p class="jp main-text" id="kanji"></p>
-			<p class="romaji sub-text" id="kanji-romaji"></p>
-			<p class="translation sub-text" id="kanji-translated"></p>
+			<header>
+				<h2 class="sub-title">Kanji</h2>
+				<p class="instructions">Appuyez sur <span>j</span> pour changer</p>
+			</header>
+			<div class="inner-container">
+				<p class="jp main-text" id="kanji"></p>
+				<p class="romaji sub-text" id="kanji-romaji"></p>
+				<p class="translation sub-text" id="kanji-translated"></p>
+			</div>
 		</section>
 	</main>
 	<script src="./sentence.js"></script>

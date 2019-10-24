@@ -64,7 +64,7 @@ main:not(.hide-furigana) .jp::before {
 }
 
 .sub-title {
-  position: absolute;
+  /* position: absolute; */
   top: 10px;
   left: 10px;
   margin: 0;
@@ -72,7 +72,7 @@ main:not(.hide-furigana) .jp::before {
 }
 
 .instructions {
-  position: absolute;
+  /* position: absolute; */
   top: 30px;
   left: 10px;
   margin: 0;
@@ -95,7 +95,7 @@ main:not(.hide-furigana) .jp::before {
   display: none;
 }
 
-header {
+.main-header {
   display: flex;
   align-items: center;
   padding: 0 10px;
@@ -113,32 +113,29 @@ main {
 }
 
 section {
-  position: relative;
+  display: grid;
+  grid-template-rows: auto 1fr;
+  padding: 10px;
 }
 
-#sentence {
-  grid-area: sentence;
+.inner-container {
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
+}
+
+#sentence {
+  grid-area: sentence;
   border-right: 1px solid #ccc;
 }
 
 #kanji-container {
   grid-area: kanji;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
 }
 
 #kana-container{
   grid-area : kana;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  flex-direction: column;
   border-bottom: 1px solid #ccc;
 }
 
