@@ -32,6 +32,13 @@ body {
   grid-template-columns: 1fr;
 }
 
+button {
+  cursor: pointer;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  border-radius: 3px;
+}
+
 .main-title {
   font-size: 18px;
   margin: 0;
@@ -64,17 +71,11 @@ main:not(.hide-furigana) .jp::before {
 }
 
 .sub-title {
-  /* position: absolute; */
-  top: 10px;
-  left: 10px;
   margin: 0;
   font-size: 14px;
 }
 
 .instructions {
-  /* position: absolute; */
-  top: 30px;
-  left: 10px;
   margin: 0;
   font-size: 12px;
 }
@@ -139,7 +140,160 @@ section {
   border-bottom: 1px solid #ccc;
 }
 
+#kana-container-header {
+  display: grid;
+  grid-template-columns: 1fr auto;
+  grid-template-areas: "title button" "instructions button";
+}
+
+#kana-container-header .sub-title {
+  grid-area: title;
+}
+#kana-container-header .instructions {
+  grid-area: instructions;
+}
+#kana-container-header button {
+  grid-area: button;
+  background: none;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+  padding-left: 20px;
+  padding-right: 20px;
+  border-radius: 5px;
+}
+
 footer {
   background: var(--background-header);
   grid-area: footer;
+}
+
+#hiragana-card-main-list,
+#katakana-card-main-list {
+  flex: 1;
+  overflow: auto;
+}
+
+kana-board .kana-list {
+  display: none;
+}
+
+kana-board[hiragana] #katakana-card-main-list,
+kana-board[katakana] #hiragana-card-main-list {
+  display: none;
+}
+
+.kana-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  background: rgba(244,246,249,0.80);
+  z-index: 10;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity .3s ease-in-out;
+}
+
+kana-board[open] .kana-modal {
+  opacity: 1;
+  pointer-events: all;
+}
+
+.kana-modal-inner-container {
+  width: 635px;
+  height: 80vh;
+  overflow: hidden;
+  background: white;
+  display: flex;
+  flex-direction: column;
+}
+
+.kana-modal-inner-container header {
+  padding: 15px;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.modal-title {
+  color: var(--primary-color);
+  text-transform: uppercase;
+  margin: 0;
+}
+
+.kana-types-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.kana-types-list li {
+  display: inline-block;
+}
+
+.kana-types-list li button {
+  color: #A1A1A1;
+  margin: 15px;
+  font-size: 14px;
+  text-transform: uppercase;
+  border: none;
+}
+
+.unstyled-list {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.kana-card-list {
+  list-style: none;
+  margin: 0 5px;
+  padding: 0;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.kana-card {
+  border: 1px solid var(--primary-color);
+  border-radius: 10px;
+  display: inline-flex;
+  padding: 10px;
+  flex-direction: column;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  margin: 10px;
+}
+
+.kana-value {
+  font-size: 36px;
+}
+
+.kana-romaji {
+  font-size: 18px;
+  color: #A1A1A1;
+}
+
+kana-board[hiragana] #hiragana-switch,
+kana-board[katakana] #katakana-switch {
+  color: #212121;
+  border-bottom: 1px solid #212121;
+}
+
+#close-modal {
+  background: #CCCCCC;
+  border-radius: 50%;
+  width: 30px;
+  height: 30px;
+  line-height: 12px;
+  color: white;
+  border: none;
+  font-size: 20px;
 }

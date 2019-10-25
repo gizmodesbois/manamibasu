@@ -1,552 +1,608 @@
-[
-    {
-        "id": "hiragana_a",
-        "character": "あ",
-        "romaji": "a"
-    },
-    {
-        "id": "hiragana_i",
-        "character": "い",
-        "romaji": "i"
-    },
-    {
-        "id": "hiragana_u",
-        "character": "う",
-        "romaji": "u"
-    },
-    {
-        "id": "hiragana_e",
-        "character": "え",
-        "romaji": "e"
-    },
-    {
-        "id": "hiragana_o",
-        "character": "お",
-        "romaji": "o"
-    },
-    {
-        "id": "hiragana_ka",
-        "character": "か",
-        "romaji": "ka"
-    },
-    {
-        "id": "hiragana_ki",
-        "character": "き",
-        "romaji": "ki"
-    },
-    {
-        "id": "hiragana_ku",
-        "character": "く",
-        "romaji": "ku"
-    },
-    {
-        "id": "hiragana_ke",
-        "character": "け",
-        "romaji": "ke"
-    },
-    {
-        "id": "hiragana_ko",
-        "character": "こ",
-        "romaji": "ko"
-    },
-    {
-        "id": "hiragana_sa",
-        "character": "さ",
-        "romaji": "sa"
-    },
-    {
-        "id": "hiragana_si",
-        "character": "し",
-        "romaji": "shi"
-    },
-    {
-        "id": "hiragana_su",
-        "character": "す",
-        "romaji": "su"
-    },
-    {
-        "id": "hiragana_se",
-        "character": "せ",
-        "romaji": "se"
-    },
-    {
-        "id": "hiragana_so",
-        "character": "そ",
-        "romaji": "so"
-    },
-    {
-        "id": "hiragana_ta",
-        "character": "た",
-        "romaji": "ta"
-    },
-    {
-        "id": "hiragana_ti",
-        "character": "ち",
-        "romaji": "chi"
-    },
-    {
-        "id": "hiragana_tu",
-        "character": "つ",
-        "romaji": "tsu"
-    },
-    {
-        "id": "hiragana_te",
-        "character": "て",
-        "romaji": "te"
-    },
-    {
-        "id": "hiragana_to",
-        "character": "と",
-        "romaji": "to"
-    },
-    {
-        "id": "hiragana_na",
-        "character": "な",
-        "romaji": "na"
-    },
-    {
-        "id": "hiragana_ni",
-        "character": "に",
-        "romaji": "ni"
-    },
-    {
-        "id": "hiragana_nu",
-        "character": "ぬ",
-        "romaji": "nu"
-    },
-    {
-        "id": "hiragana_ne",
-        "character": "ね",
-        "romaji": "ne"
-    },
-    {
-        "id": "hiragana_no",
-        "character": "の",
-        "romaji": "no"
-    },
-    {
-        "id": "hiragana_ha",
-        "character": "は",
-        "romaji": "ha"
-    },
-    {
-        "id": "hiragana_hi",
-        "character": "ひ",
-        "romaji": "hi"
-    },
-    {
-        "id": "hiragana_hu",
-        "character": "ふ",
-        "romaji": "fu"
-    },
-    {
-        "id": "hiragana_he",
-        "character": "へ",
-        "romaji": "he"
-    },
-    {
-        "id": "hiragana_ho",
-        "character": "ほ",
-        "romaji": "ho"
-    },
-    {
-        "id": "hiragana_ma",
-        "character": "ま",
-        "romaji": "ma"
-    },
-    {
-        "id": "hiragana_mi",
-        "character": "み",
-        "romaji": "mi"
-    },
-    {
-        "id": "hiragana_mu",
-        "character": "む",
-        "romaji": "mu"
-    },
-    {
-        "id": "hiragana_me",
-        "character": "め",
-        "romaji": "me"
-    },
-    {
-        "id": "hiragana_mo",
-        "character": "も",
-        "romaji": "mo"
-    },
-    {
-        "id": "hiragana_ya",
-        "character": "や",
-        "romaji": "ya"
-    },
-    {
-        "id": "hiragana_yu",
-        "character": "ゆ",
-        "romaji": "yu"
-    },
-    {
-        "id": "hiragana_yo",
-        "character": "よ",
-        "romaji": "yo"
-    },
-    {
-        "id": "hiragana_ra",
-        "character": "ら",
-        "romaji": "ra"
-    },
-    {
-        "id": "hiragana_ri",
-        "character": "り",
-        "romaji": "ri"
-    },
-    {
-        "id": "hiragana_ru",
-        "character": "る",
-        "romaji": "ru"
-    },
-    {
-        "id": "hiragana_re",
-        "character": "れ",
-        "romaji": "re"
-    },
-    {
-        "id": "hiragana_ro",
-        "character": "ろ",
-        "romaji": "ro"
-    },
-    {
-        "id": "hiragana_wa",
-        "character": "わ",
-        "romaji": "wa"
-    },
-    {
-        "id": "hiragana_wi",
-        "character": "ゐ",
-        "romaji": "wi"
-    },
-    {
-        "id": "hiragana_we",
-        "character": "ゑ",
-        "romaji": "we"
-    },
-    {
-        "id": "hiragana_wo",
-        "character": "を",
-        "romaji": "wo"
-    },
-    {
-        "id": "hiragana_-n",
-        "character": "ん",
-        "romaji": "n"
-    },
-    {
-        "id": "hiragana_ga",
-        "character": "が",
-        "romaji": "ga"
-    },
-    {
-        "id": "hiragana_gi",
-        "character": "ぎ",
-        "romaji": "gi"
-    },
-    {
-        "id": "hiragana_gu",
-        "character": "ぐ",
-        "romaji": "gu"
-    },
-    {
-        "id": "hiragana_ge",
-        "character": "げ",
-        "romaji": "ge"
-    },
-    {
-        "id": "hiragana_go",
-        "character": "ご",
-        "romaji": "go"
-    },
-    {
-        "id": "hiragana_za",
-        "character": "ざ",
-        "romaji": "za"
-    },
-    {
-        "id": "hiragana_zi",
-        "character": "じ",
-        "romaji": "ji"
-    },
-    {
-        "id": "hiragana_zu",
-        "character": "ず",
-        "romaji": "zu"
-    },
-    {
-        "id": "hiragana_ze",
-        "character": "ぜ",
-        "romaji": "ze"
-    },
-    {
-        "id": "hiragana_zo",
-        "character": "ぞ",
-        "romaji": "zo"
-    },
-    {
-        "id": "hiragana_da",
-        "character": "だ",
-        "romaji": "da"
-    },
-    {
-        "id": "hiragana_di",
-        "character": "ぢ",
-        "romaji": "ji"
-    },
-    {
-        "id": "hiragana_du",
-        "character": "づ",
-        "romaji": "zu"
-    },
-    {
-        "id": "hiragana_de",
-        "character": "で",
-        "romaji": "de"
-    },
-    {
-        "id": "hiragana_do",
-        "character": "ど",
-        "romaji": "do"
-    },
-    {
-        "id": "hiragana_ba",
-        "character": "ば",
-        "romaji": "ba"
-    },
-    {
-        "id": "hiragana_bi",
-        "character": "び",
-        "romaji": "bi"
-    },
-    {
-        "id": "hiragana_bu",
-        "character": "ぶ",
-        "romaji": "bu"
-    },
-    {
-        "id": "hiragana_be",
-        "character": "べ",
-        "romaji": "be"
-    },
-    {
-        "id": "hiragana_bo",
-        "character": "ぼ",
-        "romaji": "bo"
-    },
-    {
-        "id": "hiragana_pa",
-        "character": "ぱ",
-        "romaji": "pa"
-    },
-    {
-        "id": "hiragana_pi",
-        "character": "ぴ",
-        "romaji": "pi"
-    },
-    {
-        "id": "hiragana_pu",
-        "character": "ぷ",
-        "romaji": "pu"
-    },
-    {
-        "id": "hiragana_pe",
-        "character": "ぺ",
-        "romaji": "pe"
-    },
-    {
-        "id": "hiragana_po",
-        "character": "ぽ",
-        "romaji": "po"
-    },
-    {
-        "id": "hiragana_vu",
-        "character": "ゔ",
-        "romaji": "vu"
-    },
-    {
-        "id": "hiragana_kya",
-        "character": "きゃ",
-        "romaji": "kya"
-    },
-    {
-        "id": "hiragana_kyu",
-        "character": "きゅ",
-        "romaji": "kyu"
-    },
-    {
-        "id": "hiragana_kyo",
-        "character": "きょ",
-        "romaji": "kyo"
-    },
-    {
-        "id": "hiragana_sya",
-        "character": "しゃ",
-        "romaji": "sha"
-    },
-    {
-        "id": "hiragana_syu",
-        "character": "しゅ",
-        "romaji": "shu"
-    },
-    {
-        "id": "hiragana_syo",
-        "character": "しょ",
-        "romaji": "sho"
-    },
-    {
-        "id": "hiragana_tya",
-        "character": "ちゃ",
-        "romaji": "cha"
-    },
-    {
-        "id": "hiragana_tyu",
-        "character": "ちゅ",
-        "romaji": "chu"
-    },
-    {
-        "id": "hiragana_tyo",
-        "character": "ちょ",
-        "romaji": "cho"
-    },
-    {
-        "id": "hiragana_nya",
-        "character": "にゃ",
-        "romaji": "nya"
-    },
-    {
-        "id": "hiragana_nyu",
-        "character": "にゅ",
-        "romaji": "nyu"
-    },
-    {
-        "id": "hiragana_nyo",
-        "character": "にょ",
-        "romaji": "nyo"
-    },
-    {
-        "id": "hiragana_hya",
-        "character": "ひゃ",
-        "romaji": "hya"
-    },
-    {
-        "id": "hiragana_hyu",
-        "character": "ひゅ",
-        "romaji": "hyu"
-    },
-    {
-        "id": "hiragana_hyo",
-        "character": "ひょ",
-        "romaji": "hyo"
-    },
-    {
-        "id": "hiragana_mya",
-        "character": "みゃ",
-        "romaji": "mya"
-    },
-    {
-        "id": "hiragana_myu",
-        "character": "みゅ",
-        "romaji": "myu"
-    },
-    {
-        "id": "hiragana_myo",
-        "character": "みょ",
-        "romaji": "myo"
-    },
-    {
-        "id": "hiragana_rya",
-        "character": "りゃ",
-        "romaji": "rya"
-    },
-    {
-        "id": "hiragana_ryu",
-        "character": "りゅ",
-        "romaji": "ryu"
-    },
-    {
-        "id": "hiragana_ryo",
-        "character": "りょ",
-        "romaji": "ryo"
-    },
-    {
-        "id": "hiragana_gya",
-        "character": "ぎゃ",
-        "romaji": "gya"
-    },
-    {
-        "id": "hiragana_gyu",
-        "character": "ぎゅ",
-        "romaji": "gyu"
-    },
-    {
-        "id": "hiragana_gyo",
-        "character": "ぎょ",
-        "romaji": "gyo"
-    },
-    {
-        "id": "hiragana_zya",
-        "character": "じゃ",
-        "romaji": "ja"
-    },
-    {
-        "id": "hiragana_zyu",
-        "character": "じゅ",
-        "romaji": "ju"
-    },
-    {
-        "id": "hiragana_zyo",
-        "character": "じょ",
-        "romaji": "jo"
-    },
-    {
-        "id": "hiragana_dya",
-        "character": "ぢゃ",
-        "romaji": "ja"
-    },
-    {
-        "id": "hiragana_dyu",
-        "character": "ぢゅ",
-        "romaji": "ju"
-    },
-    {
-        "id": "hiragana_dyo",
-        "character": "ぢょ",
-        "romaji": "jo"
-    },
-    {
-        "id": "hiragana_bya",
-        "character": "びゃ",
-        "romaji": "bya"
-    },
-    {
-        "id": "hiragana_byu",
-        "character": "びゅ",
-        "romaji": "byu"
-    },
-    {
-        "id": "hiragana_byo",
-        "character": "にょ",
-        "romaji": "byo"
-    },
-    {
-        "id": "hiragana_pya",
-        "character": "ぴゃ",
-        "romaji": "pya"
-    },
-    {
-        "id": "hiragana_pyu",
-        "character": "ぴゅ",
-        "romaji": "pyu"
-    },
-    {
-        "id": "hiragana_pyo",
-        "character": "ぴょ",
-        "romaji": "pyo"
-    }
-]
+{
+  "hiragana": {
+    "regular": [
+      [
+        {
+          "id": "hiragana_a",
+          "character": "あ",
+          "romaji": "a"
+        },
+        {
+          "id": "hiragana_i",
+          "character": "い",
+          "romaji": "i"
+        },
+        {
+          "id": "hiragana_u",
+          "character": "う",
+          "romaji": "u"
+        },
+        {
+          "id": "hiragana_e",
+          "character": "え",
+          "romaji": "e"
+        },
+        {
+          "id": "hiragana_o",
+          "character": "お",
+          "romaji": "o"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_ka",
+          "character": "か",
+          "romaji": "ka"
+        },
+        {
+          "id": "hiragana_ki",
+          "character": "き",
+          "romaji": "ki"
+        },
+        {
+          "id": "hiragana_ku",
+          "character": "く",
+          "romaji": "ku"
+        },
+        {
+          "id": "hiragana_ke",
+          "character": "け",
+          "romaji": "ke"
+        },
+        {
+          "id": "hiragana_ko",
+          "character": "こ",
+          "romaji": "ko"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_sa",
+          "character": "さ",
+          "romaji": "sa"
+        },
+        {
+          "id": "hiragana_si",
+          "character": "し",
+          "romaji": "shi"
+        },
+        {
+          "id": "hiragana_su",
+          "character": "す",
+          "romaji": "su"
+        },
+        {
+          "id": "hiragana_se",
+          "character": "せ",
+          "romaji": "se"
+        },
+        {
+          "id": "hiragana_so",
+          "character": "そ",
+          "romaji": "so"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_ta",
+          "character": "た",
+          "romaji": "ta"
+        },
+        {
+          "id": "hiragana_ti",
+          "character": "ち",
+          "romaji": "chi"
+        },
+        {
+          "id": "hiragana_tu",
+          "character": "つ",
+          "romaji": "tsu"
+        },
+        {
+          "id": "hiragana_te",
+          "character": "て",
+          "romaji": "te"
+        },
+        {
+          "id": "hiragana_to",
+          "character": "と",
+          "romaji": "to"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_na",
+          "character": "な",
+          "romaji": "na"
+        },
+        {
+          "id": "hiragana_ni",
+          "character": "に",
+          "romaji": "ni"
+        },
+        {
+          "id": "hiragana_nu",
+          "character": "ぬ",
+          "romaji": "nu"
+        },
+        {
+          "id": "hiragana_ne",
+          "character": "ね",
+          "romaji": "ne"
+        },
+        {
+          "id": "hiragana_no",
+          "character": "の",
+          "romaji": "no"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_ha",
+          "character": "は",
+          "romaji": "ha"
+        },
+        {
+          "id": "hiragana_hi",
+          "character": "ひ",
+          "romaji": "hi"
+        },
+        {
+          "id": "hiragana_hu",
+          "character": "ふ",
+          "romaji": "fu"
+        },
+        {
+          "id": "hiragana_he",
+          "character": "へ",
+          "romaji": "he"
+        },
+        {
+          "id": "hiragana_ho",
+          "character": "ほ",
+          "romaji": "ho"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_ma",
+          "character": "ま",
+          "romaji": "ma"
+        },
+        {
+          "id": "hiragana_mi",
+          "character": "み",
+          "romaji": "mi"
+        },
+        {
+          "id": "hiragana_mu",
+          "character": "む",
+          "romaji": "mu"
+        },
+        {
+          "id": "hiragana_me",
+          "character": "め",
+          "romaji": "me"
+        },
+        {
+          "id": "hiragana_mo",
+          "character": "も",
+          "romaji": "mo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_ya",
+          "character": "や",
+          "romaji": "ya"
+        },
+        {
+          "id": "hiragana_yu",
+          "character": "ゆ",
+          "romaji": "yu"
+        },
+        {
+          "id": "hiragana_yo",
+          "character": "よ",
+          "romaji": "yo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_ra",
+          "character": "ら",
+          "romaji": "ra"
+        },
+        {
+          "id": "hiragana_ri",
+          "character": "り",
+          "romaji": "ri"
+        },
+        {
+          "id": "hiragana_ru",
+          "character": "る",
+          "romaji": "ru"
+        },
+        {
+          "id": "hiragana_re",
+          "character": "れ",
+          "romaji": "re"
+        },
+        {
+          "id": "hiragana_ro",
+          "character": "ろ",
+          "romaji": "ro"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_wa",
+          "character": "わ",
+          "romaji": "wa"
+        },
+        {
+          "id": "hiragana_wo",
+          "character": "を",
+          "romaji": "wo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_n",
+          "character": "ん",
+          "romaji": "n"
+        }
+      ]
+    ],
+    "tenten": [
+      [
+        {
+          "id": "hiragana_ga",
+          "character": "が",
+          "romaji": "ga"
+        },
+        {
+          "id": "hiragana_gi",
+          "character": "ぎ",
+          "romaji": "gi"
+        },
+        {
+          "id": "hiragana_gu",
+          "character": "ぐ",
+          "romaji": "gu"
+        },
+        {
+          "id": "hiragana_ge",
+          "character": "げ",
+          "romaji": "ge"
+        },
+        {
+          "id": "hiragana_go",
+          "character": "ご",
+          "romaji": "go"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_za",
+          "character": "ざ",
+          "romaji": "za"
+        },
+        {
+          "id": "hiragana_zi",
+          "character": "じ",
+          "romaji": "ji"
+        },
+        {
+          "id": "hiragana_zu",
+          "character": "ず",
+          "romaji": "zu"
+        },
+        {
+          "id": "hiragana_ze",
+          "character": "ぜ",
+          "romaji": "ze"
+        },
+        {
+          "id": "hiragana_zo",
+          "character": "ぞ",
+          "romaji": "zo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_da",
+          "character": "だ",
+          "romaji": "da"
+        },
+        {
+          "id": "hiragana_di",
+          "character": "ぢ",
+          "romaji": "ji"
+        },
+        {
+          "id": "hiragana_du",
+          "character": "づ",
+          "romaji": "zu"
+        },
+        {
+          "id": "hiragana_de",
+          "character": "で",
+          "romaji": "de"
+        },
+        {
+          "id": "hiragana_do",
+          "character": "ど",
+          "romaji": "do"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_ba",
+          "character": "ば",
+          "romaji": "ba"
+        },
+        {
+          "id": "hiragana_bi",
+          "character": "び",
+          "romaji": "bi"
+        },
+        {
+          "id": "hiragana_bu",
+          "character": "ぶ",
+          "romaji": "bu"
+        },
+        {
+          "id": "hiragana_be",
+          "character": "べ",
+          "romaji": "be"
+        },
+        {
+          "id": "hiragana_bo",
+          "character": "ぼ",
+          "romaji": "bo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_pa",
+          "character": "ぱ",
+          "romaji": "pa"
+        },
+        {
+          "id": "hiragana_pi",
+          "character": "ぴ",
+          "romaji": "pi"
+        },
+        {
+          "id": "hiragana_pu",
+          "character": "ぷ",
+          "romaji": "pu"
+        },
+        {
+          "id": "hiragana_pe",
+          "character": "ぺ",
+          "romaji": "pe"
+        },
+        {
+          "id": "hiragana_po",
+          "character": "ぽ",
+          "romaji": "po"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_vu",
+          "character": "ゔ",
+          "romaji": "vu"
+        }
+      ]
+    ],
+    "maru": [
+      [
+        {
+          "id": "hiragana_kya",
+          "character": "きゃ",
+          "romaji": "kya"
+        },
+        {
+          "id": "hiragana_kyu",
+          "character": "きゅ",
+          "romaji": "kyu"
+        },
+        {
+          "id": "hiragana_kyo",
+          "character": "きょ",
+          "romaji": "kyo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_sya",
+          "character": "しゃ",
+          "romaji": "sha"
+        },
+        {
+          "id": "hiragana_syu",
+          "character": "しゅ",
+          "romaji": "shu"
+        },
+        {
+          "id": "hiragana_syo",
+          "character": "しょ",
+          "romaji": "sho"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_tya",
+          "character": "ちゃ",
+          "romaji": "cha"
+        },
+        {
+          "id": "hiragana_tyu",
+          "character": "ちゅ",
+          "romaji": "chu"
+        },
+        {
+          "id": "hiragana_tyo",
+          "character": "ちょ",
+          "romaji": "cho"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_nya",
+          "character": "にゃ",
+          "romaji": "nya"
+        },
+        {
+          "id": "hiragana_nyu",
+          "character": "にゅ",
+          "romaji": "nyu"
+        },
+        {
+          "id": "hiragana_nyo",
+          "character": "にょ",
+          "romaji": "nyo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_hya",
+          "character": "ひゃ",
+          "romaji": "hya"
+        },
+        {
+          "id": "hiragana_hyu",
+          "character": "ひゅ",
+          "romaji": "hyu"
+        },
+        {
+          "id": "hiragana_hyo",
+          "character": "ひょ",
+          "romaji": "hyo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_mya",
+          "character": "みゃ",
+          "romaji": "mya"
+        },
+        {
+          "id": "hiragana_myu",
+          "character": "みゅ",
+          "romaji": "myu"
+        },
+        {
+          "id": "hiragana_myo",
+          "character": "みょ",
+          "romaji": "myo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_rya",
+          "character": "りゃ",
+          "romaji": "rya"
+        },
+        {
+          "id": "hiragana_ryu",
+          "character": "りゅ",
+          "romaji": "ryu"
+        },
+        {
+          "id": "hiragana_ryo",
+          "character": "りょ",
+          "romaji": "ryo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_gya",
+          "character": "ぎゃ",
+          "romaji": "gya"
+        },
+        {
+          "id": "hiragana_gyu",
+          "character": "ぎゅ",
+          "romaji": "gyu"
+        },
+        {
+          "id": "hiragana_gyo",
+          "character": "ぎょ",
+          "romaji": "gyo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_zya",
+          "character": "じゃ",
+          "romaji": "ja"
+        },
+        {
+          "id": "hiragana_zyu",
+          "character": "じゅ",
+          "romaji": "ju"
+        },
+        {
+          "id": "hiragana_zyo",
+          "character": "じょ",
+          "romaji": "jo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_dya",
+          "character": "ぢゃ",
+          "romaji": "ja"
+        },
+        {
+          "id": "hiragana_dyu",
+          "character": "ぢゅ",
+          "romaji": "ju"
+        },
+        {
+          "id": "hiragana_dyo",
+          "character": "ぢょ",
+          "romaji": "jo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_bya",
+          "character": "びゃ",
+          "romaji": "bya"
+        },
+        {
+          "id": "hiragana_byu",
+          "character": "びゅ",
+          "romaji": "byu"
+        },
+        {
+          "id": "hiragana_byo",
+          "character": "にょ",
+          "romaji": "byo"
+        }
+      ],
+      [
+        {
+          "id": "hiragana_pya",
+          "character": "ぴゃ",
+          "romaji": "pya"
+        },
+        {
+          "id": "hiragana_pyu",
+          "character": "ぴゅ",
+          "romaji": "pyu"
+        },
+        {
+          "id": "hiragana_pyo",
+          "character": "ぴょ",
+          "romaji": "pyo"
+        }
+      ]
+    ]
+  }
+}
