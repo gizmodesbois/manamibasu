@@ -1,15 +1,15 @@
 {
-  "name": "学びます日本語",
+  "name": "Apprendre le japonais / 学びます日本語",
   "version": "1.0.0",
   "manifest_version": 2,
-  "description": "This extension is made to learn kana, kanjis and sentence",
+  "description": "Cette extension vous permettra d'apprendre les kana, kanji et certaines phrases en japonais",
   "homepage_url": "https:/simonhenrotte.com",
   "icons": {
     "16": "icons/icon16.png",
     "48": "icons/icon48.png",
     "128": "icons/icon128.png"
   },
-  "default_locale": "en",
+  "default_locale": "fr",
   "background": {
     "page": "src/bg/background.html",
     "persistent": true
