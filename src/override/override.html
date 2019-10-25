@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,8 +9,9 @@
 	<link href="https://fonts.googleapis.com/css?family=M+PLUS+Rounded+1c" rel="stylesheet">
 	<link rel="stylesheet" href="./style.css">
 </head>
+
 <body>
-	<header>
+	<header class="main-header">
 		<h1 class="jp main-title">
 			学びます
 		</h1>
@@ -19,29 +21,65 @@
 	</header>
 	<main>
 		<section id="sentence">
-			<h2 class="sub-title">Phrase</h2>
-			<p class="instructions">Appuyez sur <span>espace</span> pour changer</p>
-			<p class="jp main-text" id="japanese-word"></p>
-			<p class="romaji sub-text" id="romaji-word"></p>
-			<p class="translation sub-text" id="translated-word"></p>
+			<header>
+				<h2 class="sub-title">Phrase</h2>
+				<p class="instructions">Appuyez sur <span>espace</span> pour changer</p>
+			</header>
+			<div class="inner-container">
+				<p class="jp main-text" id="japanese-word"></p>
+				<p class="romaji sub-text" id="romaji-word"></p>
+				<p class="translation sub-text" id="translated-word"></p>
+			</div>
 		</section>
 		<section id="kana-container">
-			<h2 class="sub-title">Kana</h2>
-			<p class="instructions">Appuyez sur <span>k</span> pour changer</p>
-			<p class="jp main-text" id="kana"></p>
-			<p class="romaji sub-text" id="romajiKana"></p>
+			<header id=kana-container-header>
+				<h2 class="sub-title">Kana</h2>
+				<p class="instructions">Appuyez sur <span>k</span> pour changer</p>
+			</header>
+			<div class="inner-container">
+				<p class="jp main-text" id="kana"></p>
+				<p class="romaji sub-text" id="romajiKana"></p>
+			</div>
 		</section>
 		<section id="kanji-container">
-			<h2 class="sub-title">Kanji</h2>
-			<p class="instructions">Appuyez sur <span>j</span> pour changer</p>
-			<p class="jp main-text" id="kanji"></p>
-			<p class="romaji sub-text" id="kanji-romaji"></p>
-			<p class="translation sub-text" id="kanji-translated"></p>
+			<header>
+				<h2 class="sub-title">Kanji</h2>
+				<p class="instructions">Appuyez sur <span>j</span> pour changer</p>
+			</header>
+			<div class="inner-container">
+				<p class="jp main-text" id="kanji"></p>
+				<p class="romaji sub-text" id="kanji-romaji"></p>
+				<p class="translation sub-text" id="kanji-translated"></p>
+			</div>
 		</section>
 	</main>
+	<kana-board hiragana>
+		<div class="kana-modal">
+			<div class="kana-modal-inner-container">
+				<header class="kana-header">
+					<h2 class="modal-title">Kana</h2>
+					<button id="close-modal">
+						&times;
+					</button>
+				</header>
+				<ul class="kana-types-list">
+					<li>
+						<button id="hiragana-switch">Hiragana</button>
+					</li>
+					<li>
+						<button id="katakana-switch">Katakana</button>
+					</li>
+				</ul>
+				<ul class="unstyled-list" id="hiragana-card-main-list"></ul>
+				<ul class="unstyled-list" id="katakana-card-main-list"></ul>
+			</div>
+		</div>
+	</kana-board>
 	<script src="./sentence.js"></script>
 	<script src="./kana.js"></script>
+	<script src="./kana_board.js"></script>
 	<script src="./kanji.js"></script>
 	<script src="./app.js"></script>
 </body>
+
 </html>

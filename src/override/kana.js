@@ -2,6 +2,8 @@ class Kana {
   kanas;
   kanaElement;
   romajiKanaElement;
+  hiraganaBoard;
+  katakanaBoard;
 
   constructor() {
     this.kanaElement = document.getElementById('kana');
@@ -12,9 +14,13 @@ class Kana {
   init = async () => {
     const resHiragana = await fetch('../datas/hiragana.json');
     const resKatakana = await fetch('../datas/katakana.json');
-    const hiraganas = await resHiragana.json();
-    const katakanas = await resKatakana.json();
-    this.kanas = [...hiraganas, ...katakanas];
+    const { hiragana } = await resHiragana.json();
+    const { katakana } = await resKatakana.json();
+    
+    this.hiraganaBoard = hiragana
+    this.katakanaBoard = katakana
+
+    this.kanas = [...this.flattenKana(this.hiraganaBoard), ...this.flattenKana(this.katakanaBoard)];
 
     this.setRandomKana();
     this.listenKeyboard();
@@ -32,6 +38,11 @@ class Kana {
         this.setRandomKana();
       }
     })
+  }
+
+  flattenKana(kana) {
+    const { regular, tenten, maru } = kana;
+    return [...regular.flat(2), ...tenten.flat(2), ...maru.flat(2)]
   }
 }
 
