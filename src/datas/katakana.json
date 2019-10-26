@@ -3,252 +3,252 @@
     "regular": [
       [
         {
-          "id": "hiragana_a",
+          "id": "katakana_a",
           "character": "ア",
           "romaji": "a"
         },
         {
-          "id": "hiragana_i",
+          "id": "katakana_i",
           "character": "イ",
           "romaji": "i"
         },
         {
-          "id": "hiragana_u",
+          "id": "katakana_u",
           "character": "ウ",
           "romaji": "u"
         },
         {
-          "id": "hiragana_e",
+          "id": "katakana_e",
           "character": "エ",
           "romaji": "e"
         },
         {
-          "id": "hiragana_o",
+          "id": "katakana_o",
           "character": "オ",
           "romaji": "o"
         }
       ],
       [
         {
-          "id": "hiragana_ka",
+          "id": "katakana_ka",
           "character": "カ",
           "romaji": "ka"
         },
         {
-          "id": "hiragana_ki",
+          "id": "katakana_ki",
           "character": "キ",
           "romaji": "ki"
         },
         {
-          "id": "hiragana_ku",
+          "id": "katakana_ku",
           "character": "ク",
           "romaji": "ku"
         },
         {
-          "id": "hiragana_ke",
+          "id": "katakana_ke",
           "character": "ケ",
           "romaji": "ke"
         },
         {
-          "id": "hiragana_ko",
+          "id": "katakana_ko",
           "character": "コ",
           "romaji": "ko"
         }
       ],
       [
         {
-          "id": "hiragana_sa",
+          "id": "katakana_sa",
           "character": "サ",
           "romaji": "sa"
         },
         {
-          "id": "hiragana_si",
+          "id": "katakana_si",
           "character": "シ",
           "romaji": "shi"
         },
         {
-          "id": "hiragana_su",
+          "id": "katakana_su",
           "character": "ス",
           "romaji": "su"
         },
         {
-          "id": "hiragana_se",
+          "id": "katakana_se",
           "character": "セ",
           "romaji": "se"
         },
         {
-          "id": "hiragana_so",
+          "id": "katakana_so",
           "character": "ソ",
           "romaji": "so"
         }
       ],
       [
         {
-          "id": "hiragana_ta",
+          "id": "katakana_ta",
           "character": "タ",
           "romaji": "ta"
         },
         {
-          "id": "hiragana_ti",
+          "id": "katakana_ti",
           "character": "チ",
           "romaji": "chi"
         },
         {
-          "id": "hiragana_tu",
+          "id": "katakana_tu",
           "character": "ツ",
           "romaji": "tsu"
         },
         {
-          "id": "hiragana_te",
+          "id": "katakana_te",
           "character": "テ",
           "romaji": "te"
         },
         {
-          "id": "hiragana_to",
+          "id": "katakana_to",
           "character": "ト",
           "romaji": "to"
         }
       ],
       [
         {
-          "id": "hiragana_na",
+          "id": "katakana_na",
           "character": "ナ",
           "romaji": "na"
         },
         {
-          "id": "hiragana_ni",
+          "id": "katakana_ni",
           "character": "ニ",
           "romaji": "ni"
         },
         {
-          "id": "hiragana_nu",
+          "id": "katakana_nu",
           "character": "ヌ",
           "romaji": "nu"
         },
         {
-          "id": "hiragana_ne",
+          "id": "katakana_ne",
           "character": "ネ",
           "romaji": "ne"
         },
         {
-          "id": "hiragana_no",
+          "id": "katakana_no",
           "character": "ノ",
           "romaji": "no"
         }
       ],
       [
         {
-          "id": "hiragana_ha",
+          "id": "katakana_ha",
           "character": "ハ",
           "romaji": "ha"
         },
         {
-          "id": "hiragana_hi",
+          "id": "katakana_hi",
           "character": "ヒ",
           "romaji": "hi"
         },
         {
-          "id": "hiragana_hu",
+          "id": "katakana_hu",
           "character": "フ",
           "romaji": "fu"
         },
         {
-          "id": "hiragana_he",
+          "id": "katakana_he",
           "character": "ヘ",
           "romaji": "he"
         },
         {
-          "id": "hiragana_ho",
+          "id": "katakana_ho",
           "character": "ホ",
           "romaji": "ho"
         }
       ],
       [
         {
-          "id": "hiragana_ma",
+          "id": "katakana_ma",
           "character": "マ",
           "romaji": "ma"
         },
         {
-          "id": "hiragana_mi",
+          "id": "katakana_mi",
           "character": "ミ",
           "romaji": "mi"
         },
         {
-          "id": "hiragana_mu",
+          "id": "katakana_mu",
           "character": "ム",
           "romaji": "mu"
         },
         {
-          "id": "hiragana_me",
+          "id": "katakana_me",
           "character": "メ",
           "romaji": "me"
         },
         {
-          "id": "hiragana_mo",
+          "id": "katakana_mo",
           "character": "モ",
           "romaji": "mo"
         }
       ],
       [
         {
-          "id": "hiragana_ya",
+          "id": "katakana_ya",
           "character": "ヤ",
           "romaji": "ya"
         },
         {
-          "id": "hiragana_yu",
+          "id": "katakana_yu",
           "character": "ツ",
           "romaji": "yu"
         },
         {
-          "id": "hiragana_yo",
+          "id": "katakana_yo",
           "character": "ヨ",
           "romaji": "yo"
         }
       ],
       [
         {
-          "id": "hiragana_ra",
+          "id": "katakana_ra",
           "character": "ラ",
           "romaji": "ra"
         },
         {
-          "id": "hiragana_ri",
+          "id": "katakana_ri",
           "character": "リ",
           "romaji": "ri"
         },
         {
-          "id": "hiragana_ru",
+          "id": "katakana_ru",
           "character": "ル",
           "romaji": "ru"
         },
         {
-          "id": "hiragana_re",
+          "id": "katakana_re",
           "character": "レ",
           "romaji": "re"
         },
         {
-          "id": "hiragana_ro",
+          "id": "katakana_ro",
           "character": "ロ",
           "romaji": "ro"
         }
       ],
       [
         {
-          "id": "hiragana_wa",
+          "id": "katakana_wa",
           "character": "ワ",
           "romaji": "wa"
         },
         {
-          "id": "hiragana_wo",
+          "id": "katakana_wo",
           "character": "ヲ",
           "romaji": "wo"
         }
       ],
       [
         {
-          "id": "hiragana_n",
+          "id": "katakana_n",
           "character": "ン",
           "romaji": "n"
         }
@@ -257,142 +257,142 @@
     "tenten": [
       [
         {
-          "id": "hiragana_ga",
+          "id": "katakana_ga",
           "character": "ガ",
           "romaji": "ga"
         },
         {
-          "id": "hiragana_gi",
+          "id": "katakana_gi",
           "character": "ギ",
           "romaji": "gi"
         },
         {
-          "id": "hiragana_gu",
+          "id": "katakana_gu",
           "character": "グ",
           "romaji": "gu"
         },
         {
-          "id": "hiragana_ge",
+          "id": "katakana_ge",
           "character": "ゲ",
           "romaji": "ge"
         },
         {
-          "id": "hiragana_go",
+          "id": "katakana_go",
           "character": "ゴ",
           "romaji": "go"
         }
       ],
       [
         {
-          "id": "hiragana_za",
+          "id": "katakana_za",
           "character": "ザ",
           "romaji": "za"
         },
         {
-          "id": "hiragana_zi",
+          "id": "katakana_zi",
           "character": "ジ",
           "romaji": "ji"
         },
         {
-          "id": "hiragana_zu",
+          "id": "katakana_zu",
           "character": "ズ",
           "romaji": "zu"
         },
         {
-          "id": "hiragana_ze",
+          "id": "katakana_ze",
           "character": "ゼ",
           "romaji": "ze"
         },
         {
-          "id": "hiragana_zo",
+          "id": "katakana_zo",
           "character": "ゾ",
           "romaji": "zo"
         }
       ],
       [
         {
-          "id": "hiragana_da",
+          "id": "katakana_da",
           "character": "ダ",
           "romaji": "da"
         },
         {
-          "id": "hiragana_di",
+          "id": "katakana_di",
           "character": "ヂ",
           "romaji": "ji"
         },
         {
-          "id": "hiragana_du",
+          "id": "katakana_du",
           "character": "ヅ",
           "romaji": "zu"
         },
         {
-          "id": "hiragana_de",
+          "id": "katakana_de",
           "character": "デ",
           "romaji": "de"
         },
         {
-          "id": "hiragana_do",
+          "id": "katakana_do",
           "character": "ド",
           "romaji": "do"
         }
       ],
       [
         {
-          "id": "hiragana_ba",
+          "id": "katakana_ba",
           "character": "バ",
           "romaji": "ba"
         },
         {
-          "id": "hiragana_bi",
+          "id": "katakana_bi",
           "character": "ビ",
           "romaji": "bi"
         },
         {
-          "id": "hiragana_bu",
+          "id": "katakana_bu",
           "character": "ブ",
           "romaji": "bu"
         },
         {
-          "id": "hiragana_be",
+          "id": "katakana_be",
           "character": "ベ",
           "romaji": "be"
         },
         {
-          "id": "hiragana_bo",
+          "id": "katakana_bo",
           "character": "ゴ",
           "romaji": "bo"
         }
       ],
       [
         {
-          "id": "hiragana_pa",
+          "id": "katakana_pa",
           "character": "パ",
           "romaji": "pa"
         },
         {
-          "id": "hiragana_pi",
+          "id": "katakana_pi",
           "character": "ピ",
           "romaji": "pi"
         },
         {
-          "id": "hiragana_pu",
+          "id": "katakana_pu",
           "character": "プ",
           "romaji": "pu"
         },
         {
-          "id": "hiragana_pe",
+          "id": "katakana_pe",
           "character": "ペ",
           "romaji": "pe"
         },
         {
-          "id": "hiragana_po",
+          "id": "katakana_po",
           "character": "ポ",
           "romaji": "po"
         }
       ],
       [
         {
-          "id": "hiragana_vu",
+          "id": "katakana_vu",
           "character": "ヴ",
           "romaji": "vu"
         }
@@ -401,204 +401,204 @@
     "maru": [
       [
         {
-          "id": "hiragana_kya",
+          "id": "katakana_kya",
           "character": "キャ",
           "romaji": "kya"
         },
         {
-          "id": "hiragana_kyu",
+          "id": "katakana_kyu",
           "character": "キュ",
           "romaji": "kyu"
         },
         {
-          "id": "hiragana_kyo",
+          "id": "katakana_kyo",
           "character": "キョ",
           "romaji": "kyo"
         }
       ],
       [
         {
-          "id": "hiragana_sya",
+          "id": "katakana_sya",
           "character": "シャ",
           "romaji": "sha"
         },
         {
-          "id": "hiragana_syu",
+          "id": "katakana_syu",
           "character": "シュ",
           "romaji": "shu"
         },
         {
-          "id": "hiragana_syo",
+          "id": "katakana_syo",
           "character": "ショ",
           "romaji": "sho"
         }
       ],
       [
         {
-          "id": "hiragana_tya",
+          "id": "katakana_tya",
           "character": "チャ",
           "romaji": "cha"
         },
         {
-          "id": "hiragana_tyu",
+          "id": "katakana_tyu",
           "character": "チュ",
           "romaji": "chu"
         },
         {
-          "id": "hiragana_tyo",
+          "id": "katakana_tyo",
           "character": "チョ",
           "romaji": "cho"
         }
       ],
       [
         {
-          "id": "hiragana_nya",
+          "id": "katakana_nya",
           "character": "ニャ",
           "romaji": "nya"
         },
         {
-          "id": "hiragana_nyu",
+          "id": "katakana_nyu",
           "character": "ニュ",
           "romaji": "nyu"
         },
         {
-          "id": "hiragana_nyo",
+          "id": "katakana_nyo",
           "character": "ニョ",
           "romaji": "nyo"
         }
       ],
       [
         {
-          "id": "hiragana_hya",
+          "id": "katakana_hya",
           "character": "ヒャ",
           "romaji": "hya"
         },
         {
-          "id": "hiragana_hyu",
+          "id": "katakana_hyu",
           "character": "ヒュ",
           "romaji": "hyu"
         },
         {
-          "id": "hiragana_hyo",
+          "id": "katakana_hyo",
           "character": "ヒョ",
           "romaji": "hyo"
         }
       ],
       [
         {
-          "id": "hiragana_mya",
+          "id": "katakana_mya",
           "character": "ミャ",
           "romaji": "mya"
         },
         {
-          "id": "hiragana_myu",
+          "id": "katakana_myu",
           "character": "ミュ",
           "romaji": "myu"
         },
         {
-          "id": "hiragana_myo",
+          "id": "katakana_myo",
           "character": "ミョ",
           "romaji": "myo"
         }
       ],
       [
         {
-          "id": "hiragana_rya",
+          "id": "katakana_rya",
           "character": "リャ",
           "romaji": "rya"
         },
         {
-          "id": "hiragana_ryu",
+          "id": "katakana_ryu",
           "character": "リュ",
           "romaji": "ryu"
         },
         {
-          "id": "hiragana_ryo",
+          "id": "katakana_ryo",
           "character": "リョ",
           "romaji": "ryo"
         }
       ],
       [
         {
-          "id": "hiragana_gya",
+          "id": "katakana_gya",
           "character": "ギャ",
           "romaji": "gya"
         },
         {
-          "id": "hiragana_gyu",
+          "id": "katakana_gyu",
           "character": "ギュ",
           "romaji": "gyu"
         },
         {
-          "id": "hiragana_gyo",
+          "id": "katakana_gyo",
           "character": "ギョ",
           "romaji": "gyo"
         }
       ],
       [
         {
-          "id": "hiragana_zya",
+          "id": "katakana_zya",
           "character": "ジャ",
           "romaji": "ja"
         },
         {
-          "id": "hiragana_zyu",
+          "id": "katakana_zyu",
           "character": "ジュ",
           "romaji": "ju"
         },
         {
-          "id": "hiragana_zyo",
+          "id": "katakana_zyo",
           "character": "ジョ",
           "romaji": "jo"
         }
       ],
       [
         {
-          "id": "hiragana_dya",
+          "id": "katakana_dya",
           "character": "ヂャ",
           "romaji": "ja"
         },
         {
-          "id": "hiragana_dyu",
+          "id": "katakana_dyu",
           "character": "ヂュ",
           "romaji": "ju"
         },
         {
-          "id": "hiragana_dyo",
+          "id": "katakana_dyo",
           "character": "ヂョ",
           "romaji": "jo"
         }
       ],
       [
         {
-          "id": "hiragana_bya",
+          "id": "katakana_bya",
           "character": "ビャ",
           "romaji": "bya"
         },
         {
-          "id": "hiragana_byu",
+          "id": "katakana_byu",
           "character": "ビュ",
           "romaji": "byu"
         },
         {
-          "id": "hiragana_byo",
+          "id": "katakana_byo",
           "character": "ビョ",
           "romaji": "byo"
         }
       ],
       [
         {
-          "id": "hiragana_pya",
+          "id": "katakana_pya",
           "character": "ピャ",
           "romaji": "pya"
         },
         {
-          "id": "hiragana_pyu",
+          "id": "katakana_pyu",
           "character": "ピュ",
           "romaji": "pyu"
         },
         {
-          "id": "hiragana_pyo",
+          "id": "katakana_pyo",
           "character": "ピョ",
           "romaji": "pyo"
         }
