@@ -1,24 +1,25 @@
 {
   "sentences": [
     {
+      "id": 1,
       "japanese": "ありがとう",
       "include_furigana": false,
-      "romaji": "arigato",
-      "translation": "merci"
+      "romaji": "arigato"
     },
     {
+      "id": 2,
       "japanese": "すみません",
       "include_furigana": false,
-      "romaji": "sumimasen",
-      "translation": "excusez-moi"
+      "romaji": "sumimasen"
     },
     {
+      "id": 3,
       "japanese": "なに?",
       "include_furigana": false,
-      "romaji": "nani?",
-      "translation": "quoi?"
+      "romaji": "nani?"
     },
     {
+      "id": 4,
       "japanese": "お元気ですか?",
       "include_furigana": true,
       "characters": [{
@@ -40,8 +41,7 @@
         "main": "か",
         "furigana": null
       }],
-      "romaji": "Ogenki desu ka ?",
-      "translation": "Est-ce que tu vas bien?"
+      "romaji": "Ogenki desu ka ?"
     }
   ]
 }

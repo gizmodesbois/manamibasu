@@ -1,0 +1,24 @@
+{
+  "translations": [
+    {
+      "id": 1,
+      "sentence_id": 1,
+      "translation": "merci"
+    },
+    {
+      "id": 2,
+      "sentence_id": 2,
+      "translation": "excusez-moi"
+    },
+    {
+      "id": 3,
+      "sentence_id": 3,
+      "translation": "quoi?"
+    },
+    {
+      "id": 4,
+      "sentence_id": 4,
+      "translation": "Est-ce que tu vas bien?"
+    }
+  ]
+}
