@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -7,10 +8,11 @@
 	<link rel="stylesheet" href="./style.css">
 	<title>Manamibasu - options</title>
 </head>
+
 <body>
 	<header>
 		<h1 class="jp main-title">
-				学びます日本語 — Options
+			学びます日本語 — Options
 		</h1>
 	</header>
 	<main>
@@ -22,11 +24,169 @@
 			<label for="displayTranslation">Display translation</label>
 		</section>
 		<section class="option-container">
-			<h2 class="block-title">Kana</h2>
+			<h2 class="block-title">Guess Kana</h2>
 			<input type="checkbox" class="checkbox" id="hiragana" />
 			<label for="hiragana">Hiragana</label>
+			<div class="grid" hiragana-dropdown>
+				<div class="dropdown">
+					<label>
+						From
+					</label>
+					<select class="dropdown-kana" data-kana="hiraganaFrom">
+						<option value="a">
+							a - あ
+						</option>
+						<option value="ka">
+							ka - か
+						</option>
+						<option value="sa">
+							sa - さ
+						</option>
+						<option value="ta">
+							ta - た
+						</option>
+						<option value="ha">
+							ha - は
+						</option>
+						<option value="na">
+							na - な
+						</option>
+						<option value="ya">
+							ya - や
+						</option>
+						<option value="ma">
+							ma - ま
+						</option>
+						<option value="ra">
+							ra - ら
+						</option>
+						<option value="wa">
+							wa - わ
+						</option>
+					</select>
+				</div>
+				<div class="dropdown">
+					<label>To</label>
+					<select class="dropdown-kana" data-kana="hiraganaTo">
+						<option value="o">
+							o - お
+						</option>
+						<option value="ko">
+							ko - こ
+						</option>
+						<option value="so">
+							so - そ
+						</option>
+						<option value="to">
+							to - と
+						</option>
+						<option value="ho">
+							ho - ほ
+						</option>
+						<option value="no">
+							no - の
+						</option>
+						<option value="yo">
+							yo - よ
+						</option>
+						<option value="mo">
+							mo - の
+						</option>
+						<option value="ro">
+							ro - ろ
+						</option>
+						<option value="wo">
+							wo - を
+						</option>
+						<option value="n">
+							n - ん
+						</option>
+					</select>
+				</div>
+			</div>
 			<input type="checkbox" class="checkbox" id="katakana" />
 			<label for="katakana">Katakana</label>
+			<div class="grid" katakana-dropdown>
+				<div class="dropdown">
+					<label>
+						From
+					</label>
+					<select class="dropdown-kana" data-kana="katakanaFrom">
+						<option value="a">
+							a - ア
+						</option>
+						<option value="ka">
+							ka - カ
+						</option>
+						<option value="sa">
+							sa - サ
+						</option>
+						<option value="ta">
+							ta - タ
+						</option>
+						<option value="ha">
+							ha - ハ
+						</option>
+						<option value="na">
+							na - ナ
+						</option>
+						<option value="ya">
+							ya - ヤ
+						</option>
+						<option value="ma">
+							ma - マ
+						</option>
+						<option value="ra">
+							ra - ラ
+						</option>
+						<option value="wa">
+							wa - ワ
+						</option>
+					</select>
+				</div>
+				<div class="dropdown">
+					<label>To</label>
+					<select class="dropdown-kana" data-kana="katakanaTo">
+						<option value="o">
+							o - オ
+						</option>
+						<option value="ko">
+							ko - コ
+						</option>
+						<option value="so">
+							so - ソ
+						</option>
+						<option value="to">
+							to - ト
+						</option>
+						<option value="ho">
+							ho - ホ
+						</option>
+						<option value="no">
+							no - ノ
+						</option>
+						<option value="yo">
+							yo - ヨ
+						</option>
+						<option value="mo">
+							mo - モ
+						</option>
+						<option value="ro">
+							ro - ロ
+						</option>
+						<option value="wo">
+							wo - ヲ
+						</option>
+						<option value="n">
+							n - ン
+						</option>
+					</select>
+				</div>
+			</div>
+			<input type="checkbox" class="checkbox" id="includeTenten" />
+			<label for="includeTenten">Include tenten</label>
+			<input type="checkbox" class="checkbox" id="includeMaru" />
+			<label for="includeMaru">Include maru</label>
 		</section>
 		<section class="option-container">
 			<h2 class="block-title">Kanji & Phrases</h2>
@@ -36,4 +196,5 @@
 	</main>
 	<script src="./app.js"></script>
 </body>
+
 </html>

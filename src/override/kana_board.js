@@ -23,7 +23,7 @@ class KanaBoard extends HTMLElement {
     this.button = document.createElement('button');
     this.button.innerHTML = 'Montrer les kanas';
     this.button.addEventListener('click', this.toggleModal.bind(this))
-    document.getElementById('kana-container-header').appendChild(this.button);
+    document.getElementById('kana-buttons').appendChild(this.button);
   }
 
   setCloseButton() {

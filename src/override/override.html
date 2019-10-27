@@ -33,6 +33,7 @@
 			<header id=kana-container-header>
 				<h2 class="sub-title">Kana</h2>
 				<p class="instructions">Appuyez sur <span>k</span> pour changer</p>
+				<div id="kana-buttons"></div>
 			</header>
 			<div class="inner-container">
 				<p class="jp main-text" id="kana"></p>
@@ -52,11 +53,11 @@
 		</section>
 	</main>
 	<kana-board hiragana>
-		<div class="kana-modal">
-			<div class="kana-modal-inner-container">
+		<div class="modal">
+			<div class="modal-inner-container">
 				<header class="kana-header">
 					<h2 class="modal-title">Kana</h2>
-					<button id="close-modal">
+					<button id="close-modal" class="close-modal">
 						&times;
 					</button>
 				</header>
@@ -73,9 +74,29 @@
 			</div>
 		</div>
 	</kana-board>
+	<play-kana>
+		<div class="modal">
+			<div class="modal-inner-container">
+				<header class="kana-header">
+					<h2 class="modal-title">Guess Kana</h2>
+					<button id="close-kana" class="close-modal">
+						&times;
+					</button>
+				</header>
+				<div class="guess-container">
+					<p class="jp main-text" id="guess-kana"></p>
+					<input type="text" id="guess-input" />
+					<div class="score-container">
+						<span id="current-score"></span> / <span id="total-kana"></span>
+					</div>
+				</div>
+			</div>
+		</div>
+	</play-kana>
 	<script src="./sentence.js"></script>
 	<script src="./kana.js"></script>
 	<script src="./kana_board.js"></script>
+	<script src="./play_kana.js"></script>
 	<script src="./kanji.js"></script>
 	<script src="./app.js"></script>
 </body>

@@ -19,9 +19,6 @@
     "newtab": "src/override/override.html"
   },
   "permissions": [
-    "tabs",
-    "storage",
-    "bookmarks",
-    "https://*/*"
+    "storage"
   ]
 }
