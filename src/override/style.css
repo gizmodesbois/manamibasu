@@ -52,8 +52,23 @@ button {
   color: var(--primary-color);
 }
 
+.plus-1p .jp {
+  font-family: 'M PLUS 1p', sans-serif;
+}
+.plus-rounded .jp {
+  font-family: 'M PLUS Rounded 1c', sans-serif;
+}
+.noto-sans .jp {
+  font-family: 'Noto Sans JP', sans-serif;
+}
+.noto-serif .jp {
+  font-family: 'Noto Serif JP', serif;
+}
+.sawarabi .jp {
+  font-family: 'Sawarabi Mincho', sans-serif;
+}
+
 .jp {
-  font-family: "M PLUS Rounded 1c";
   font-weight: bold;
   position: relative;
 }
