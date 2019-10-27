@@ -340,3 +340,8 @@ input[type="text"] {
 .score-container {
   margin: 10px 0;
 }
+
+.kana-board-title {
+  margin: 15px;
+  border-bottom: 1px solid #ccc;
+}
