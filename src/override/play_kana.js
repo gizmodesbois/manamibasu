@@ -74,7 +74,6 @@ class PlayKana extends HTMLElement {
 
     chrome.storage.local.get(['hiragana', 'katakana', 'hiraganaFrom', 'hiraganaTo', 'katakanaFrom', 'katakanaTo', 'includeTenten', 'includeMaru'], items => {
       const {hiragana, katakana, hiraganaFrom, hiraganaTo, includeTenten, includeMaru, katakanaFrom, katakanaTo } = items;
-      console.log(items);
       const flatHiragana = this.hiraganaBoard.regular.flat(2)
       const flatKatakana = this.katakanaBoard.regular.flat(2)
       if(hiragana) {
@@ -94,7 +93,6 @@ class PlayKana extends HTMLElement {
       this.kanas = shuffle(this.kanas.flat());
       this.kanaCount = this.kanas.length;
       this.totalKana.innerHTML = this.kanaCount;
-      console.log(this.kanaCount)
       this.setRandomKana()
     });
   }

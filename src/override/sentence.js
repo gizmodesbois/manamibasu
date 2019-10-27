@@ -1,3 +1,7 @@
+const availableLanguages = ['fr', 'en'];
+const navigatorLanguage = navigator.language.slice(0,2);
+const includedLanguage = availableLanguages.includes(navigatorLanguage);
+
 class Sentence {
   sentences;
   japaneseWord;
@@ -12,9 +16,17 @@ class Sentence {
   }
 
   init = async () => {
-    const response = await fetch('../datas/sentences.json');
-    const { sentences } = await response.json();
-    this.sentences = sentences;
+    const sentencesJson = await fetch('../datas/sentences/index.json');
+    const languageJson = await fetch(`../datas/sentences/${includedLanguage ? navigatorLanguage : 'fr'}.json`);
+    const { sentences } = await sentencesJson.json();
+    const { translations } = await languageJson.json();
+    const sentencesTranslations = sentences.map(sentence => {
+      return {
+        ...sentence,
+        translation: translations.find(translation => translation.sentence_id === sentence.id).translation,
+      }
+    })
+    this.sentences = sentencesTranslations;
 
     this.setRandomWord();
     this.listenKeyboard();
