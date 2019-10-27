@@ -4,6 +4,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<link href="https://fonts.googleapis.com/css?family=M+PLUS+1p|M+PLUS+Rounded+1|Noto+Sans+JP|Noto+Serif+JP|Sawarabi+Mincho&display=swap" rel="stylesheet">
 	<meta http-equiv="X-UA-Compatible" content="ie=edge">
 	<link rel="stylesheet" href="./style.css">
 	<title>Manamibasu - options</title>
@@ -22,6 +23,22 @@
 			<label for="displayRomaji">Display romaji</label>
 			<input type="checkbox" class="checkbox" id="displayTranslation" />
 			<label for="displayTranslation">Display translation</label>
+			<div class="dropdown">
+				<label>
+					Typographie
+				</label>
+				<input type="radio" name="typography" class="hidden" id="typography_system" value="system" />
+				<label class="jp" for="typography_system">ひらがな　- カタカナ</label>
+				<input type="radio" name="typography" class="hidden" id="plus_rounded" value="plus-rounded" />
+				<label class="jp plus-rounded" for="plus_rounded">ひらがな　- カタカナ</label>
+				<input type="radio" name="typography" class="hidden" id="plus" value="plus-1p" />
+				<label class="jp plus-1p" for="plus">ひらがな　- カタカナ</label>
+				<input type="radio" name="typography" class="hidden" id="noto_sans" value="noto-sans" />
+				<label class="jp noto-sans" for="noto_sans">ひらがな　- カタカナ</label>
+				<input type="radio" name="typography" class="hidden" id="noto_serif" value="noto-serif" />
+				<label class="jp noto-serif" for="noto_serif">ひらがな　- カタカナ</label>
+				<input type="radio" name="typography" class="hidden" id="sawarabi" value="sawarabi" />
+				<label class="jp sawarabi" for="sawarabi">ひらがな　- カタカナ</label>
 		</section>
 		<section class="option-container">
 			<h2 class="block-title">Guess Kana</h2>

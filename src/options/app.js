@@ -6,6 +6,7 @@ class Settings {
   displayTranslation;
   furigana;
   dropdownKanas;
+  typographies;
 
   constructor() {
     this.checkboxes = document.querySelectorAll('input[type="checkbox"]');
@@ -17,15 +18,17 @@ class Settings {
     this.includeMaru = document.getElementById('includeMaru')
     this.includeTenten = document.getElementById('includeTenten')
     this.dropdownKanas = document.getElementsByClassName('dropdown-kana');
+    this.typographies = document.querySelectorAll('[name="typography"]');
     
     this.init();
     this.listenCheckboxes();
     this.listenKanaChanges();
+    this.listenTypographies();
   }
 
   init() {
     chrome.storage.local.get(null, items => {
-      const { hiragana, katakana, romajiKana, furigana, displayTranslation, includeMaru, includeTenten } = items;
+      const { hiragana, katakana, romajiKana, furigana, displayTranslation, includeMaru, includeTenten, typography } = items;
       this.hiragana.checked = !!hiragana;
       this.katakana.checked = !!katakana;
       this.romajiKana.checked = !!romajiKana;
@@ -33,6 +36,11 @@ class Settings {
       this.furigana.checked = !!furigana;
       this.includeMaru.checked = !!includeMaru;
       this.includeTenten.checked = !!includeTenten;
+      if(typography) {
+        document.querySelector(`input[type="radio"][value="${typography}"]`).checked = true;
+      } else {
+        document.getElementById('typography_system').checked = true;
+      }
     });
   }
   
@@ -42,6 +50,15 @@ class Settings {
         const key = e.target.getAttribute('data-kana')
         const value = e.target.value
         this.saveKey(key, value);
+      })
+    }
+  }
+
+  listenTypographies() {
+    for(let i=0; i < this.typographies.length; i++){
+      this.typographies[i].addEventListener('change', (e) => {
+        const value = e.target.value
+        this.saveKey('typography', value);
       })
     }
   }
