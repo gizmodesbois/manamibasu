@@ -43,7 +43,27 @@ class KanaBoard extends HTMLElement {
       const rowHTML = this.createLine(row)
       hiraganaMainList.appendChild(rowHTML);
     });
+    hiraganaMainList.appendChild(this.buildTitle('Tenten'))
+    hiragana.tenten.map(row => {
+      const rowHTML = this.createLine(row)
+      hiraganaMainList.appendChild(rowHTML);
+    });
+    hiraganaMainList.appendChild(this.buildTitle('Maru'))
+    hiragana.maru.map(row => {
+      const rowHTML = this.createLine(row)
+      hiraganaMainList.appendChild(rowHTML);
+    });
     katakana.regular.map(row => {
+      const rowHTML = this.createLine(row)
+      katakanaMainList.appendChild(rowHTML);
+    });
+    katakanaMainList.appendChild(this.buildTitle('Tenten'))
+    katakana.tenten.map(row => {
+      const rowHTML = this.createLine(row)
+      katakanaMainList.appendChild(rowHTML);
+    });
+    katakanaMainList.appendChild(this.buildTitle('Maru'))
+    katakana.maru.map(row => {
       const rowHTML = this.createLine(row)
       katakanaMainList.appendChild(rowHTML);
     });
@@ -81,6 +101,13 @@ class KanaBoard extends HTMLElement {
   toggleKana(openedKana, closedKana) {
     this.setAttribute(openedKana, '');
     this.removeAttribute(closedKana);
+  }
+
+  buildTitle(title) {
+    const titleElement = document.createElement('h2');
+    titleElement.innerHTML = title;
+    titleElement.classList = 'kana-board-title';
+    return titleElement;
   }
 }
 
